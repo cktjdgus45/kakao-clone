@@ -1,0 +1,24 @@
+.user-component {
+  display: flex;
+  padding: 13px 0px 23px 23px;
+  border-bottom: 1px solid rgba(121, 118, 118, 0.2);
+}
+.user-component .user-component__column {
+  display: flex;
+  align-items: center;
+}
+.user-component__column img {
+  display: block;
+  width: 70px;
+  height: 70px;
+  border-radius: 27px;
+  margin-right: 20px;
+}
+.user-component__text .user-component__title {
+  font-size: 20px;
+  font-weight: 600;
+}
+.user-component__text .user-component__subtitle {
+  margin-top: 8px;
+  color: rgba(0, 0, 0, 0.5);
+}
