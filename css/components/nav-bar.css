@@ -1,8 +1,8 @@
 .nav {
-  position: absolute;
+  position: fixed;
   bottom: 0;
-  left: 0;
   width: 100%;
+  border-top: 1px solid rgba(122, 121, 121, 0.2);
 }
 
 .nav__list {
@@ -10,4 +10,8 @@
   justify-content: space-between;
   background-color: #f9f9fa;
   padding: 20px 40px;
+}
+
+.nav__link {
+  color: #2e363e;
 }
