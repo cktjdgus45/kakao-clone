@@ -1,13 +1,15 @@
 .user-component {
   display: flex;
-  padding: 13px 0px 23px 23px;
+  padding: 20px 0px;
   border-bottom: 1px solid rgba(121, 118, 118, 0.2);
+  justify-content: space-between;
 }
-.user-component .user-component__column {
+.user-component .user-component__column,
+.user-component__secondcolumn {
   display: flex;
   align-items: center;
 }
-.user-component__column img {
+.user-component__column .user-component__avatar {
   display: block;
   width: 70px;
   height: 70px;
@@ -21,4 +23,28 @@
 .user-component__text .user-component__subtitle {
   margin-top: 8px;
   color: rgba(0, 0, 0, 0.5);
+}
+
+.user-component__column .user-component__avatar--xl {
+  width: 80px;
+  height: 80px;
+  border-radius: 35px;
+}
+
+.user-component__column .user-component__avatar--sm {
+  width: 60px;
+  height: 60px;
+  border-radius: 25px;
+}
+
+.user-component__column:last-child span {
+  margin-right: 5px;
+}
+
+.user-component__column:last-child {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.user-component .user-component__title--not-bold {
+  font-weight: 400;
 }
