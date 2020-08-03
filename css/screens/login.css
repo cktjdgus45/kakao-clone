@@ -26,3 +26,20 @@
   border-radius: 5px;
   cursor: pointer;
 }
+
+#login-form input[type="submit"]:hover {
+  background-color: var(--yellow);
+}
+
+#login-form input:not([type="submit"]) {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  transition: border-color 0.3s ease-in-out;
+}
+
+#login-form a {
+  margin-top: 30px;
+  text-align: center;
+  color: inherit;
+  text-decoration: none;
+  font-size: 15px;
+}
