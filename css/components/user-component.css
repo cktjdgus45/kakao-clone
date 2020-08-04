@@ -1,7 +1,7 @@
 .user-component {
   display: flex;
   padding: 20px 0px;
-  border-bottom: 1px solid rgba(121, 118, 118, 0.2);
+  border-bottom: var(--main-border);
   justify-content: space-between;
 }
 
