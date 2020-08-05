@@ -13,3 +13,7 @@
   width: 10px;
   height: 10px;
 }
+
+.user-component__subtitle i {
+  color: tomato;
+}
