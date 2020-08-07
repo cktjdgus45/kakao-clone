@@ -92,24 +92,23 @@
 }
 .reply .reply__column:last-child {
   width: 90%;
-  position: relative;
 }
 .reply input {
+  padding-left: 10px;
   height: 30px;
   width: 100%;
   border: var(--main-border);
   border-radius: 20px;
-  padding-left: 8px;
 }
 .reply__column:last-child > i,
 .reply__column:last-child button {
   position: absolute;
-  right: 5px;
-  top: 1.5px;
+  right: 15px;
+  top: 6.5px;
 }
 .reply__column:last-child > i {
-  right: 50px;
-  top: 9px;
+  right: 60px;
+  top: 14px;
 }
 
 .reply__column button {
