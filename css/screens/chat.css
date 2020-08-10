@@ -5,6 +5,7 @@
 
 #chat-screen .alt-header {
   background-color: inherit;
+  z-index: 5;
 }
 .main-chat {
   margin-top: 130px;
