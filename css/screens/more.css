@@ -29,4 +29,5 @@
 .more-suggestion__icon-text {
   margin-top: 10px;
   color: rgba(0, 0, 0, 0.5);
+  text-align: center;
 }
